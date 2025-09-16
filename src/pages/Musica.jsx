@@ -1,4 +1,4 @@
-import ContenidoMusica from "../components/ContenidoMusica";
+import ContenidoMusica from "../components/ContenidoMusica.jsx";
 import "../style/Musica.css";
 import "../style/Home.css";
 

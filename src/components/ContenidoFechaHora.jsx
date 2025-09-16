@@ -1,8 +1,20 @@
+import { useEffect } from "react";
 import Calendario from "./Calendario.jsx";
 import Hora from "./Hora.jsx";
 import "../style/ContenidoFechaHora.css";
+import { useNavigate } from "react-router-dom";
 
 export default function ContenidoFechaHora() {
+  const navigate = useNavigate();
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      navigate("/botones"); // 👈 aquí pones la ruta a la que quieres ir
+    }, 7000); // 5 segundos
+
+    return () => clearTimeout(timer); // limpiar el timer al desmontar
+  }, [navigate]);
+
   return (
     <>
       <div className="container_fecha_hora">

@@ -1,4 +1,4 @@
-import ContenidoFechaHora from "../components/ContenidoFechaHora.jsx";
+import ContenidoBotones from "../components/ContenidoBotones.jsx";
 import "../style/Home.css";
 
 // Componente SVG para los pétalos de cerezo
@@ -380,23 +380,23 @@ const CherryPetals = () => {
   );
 };
 
-export default function FechaHora() {
+export default function Botones() {
   return (
     <>
       <div className="container_home">
         <img
-          src="https://res.cloudinary.com/dnao6nouz/image/upload/v1758044205/TikTok_-_Make_Your_Day_troxlm.jpg"
+          src="https://res.cloudinary.com/dnao6nouz/image/upload/v1758052407/Seungho_X_Nakyum___Painter_Of_The_Night_Wallpaper_tvba7q.jpg"
           className="video-background"
           alt=""
         />
         <img
-          src="https://res.cloudinary.com/dnao6nouz/image/upload/v1758044205/TikTok_-_Make_Your_Day_troxlm.jpg"
+          src="https://res.cloudinary.com/dnao6nouz/image/upload/v1758052407/Seungho_X_Nakyum___Painter_Of_The_Night_Wallpaper_tvba7q.jpg"
           className="video-main"
           alt=""
         />
         <CherryPetals />
         <div className="contenido_text">
-          <ContenidoFechaHora />
+          <ContenidoBotones />
         </div>
       </div>
     </>

@@ -1,0 +1,50 @@
+.text_botones {
+    width: 310px;
+    margin-top: 20px;
+}
+
+.text_botones p {
+    font-family: "Kaushan Script", cursive;
+    font-size: 30px;
+}
+
+.conteiner_botones {
+    margin-top: 550px;
+    display: flex;
+    justify-content: center;
+    width: 330px;
+}
+
+.buton_direccion, .buton_whatsapp {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.buton_direccion i, .buton_whatsapp i {
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: rgba(255, 255, 255, 0.986);
+}
+
+.buton_direccion Button, .buton_whatsapp Button {
+    background-color: transparent !important;
+    border: none !important;
+    color: rgba(255, 255, 255, 0.986) !important;
+    font-weight: 600;
+    padding: 10px 20px;
+    border-radius: 10px;
+    /* Fondo sutil para el botón */
+    /* Efecto blur de fondo */
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    background: rgba(255, 255, 255, 0.1) !important;
+    border: 1px solid rgba(255, 255, 255, 0.3) !important;
+    transition: all 0.3s ease;
+}
+
+/* Efecto hover específico para los botones */
+.buton_direccion Button:hover, .buton_whatsapp Button:hover {
+    background: rgba(255, 255, 255, 0.2) !important;
+    transform: scale(1.05);
+}
