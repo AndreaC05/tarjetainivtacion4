@@ -6,20 +6,20 @@
 }
 
 .subtitulo {
-    margin-top: -70px;
+    margin-top: -90px;
 }
 
 .subtitulo p {
     font-family: "Kaushan Script", cursive;
-    font-size: 26px;
+    font-size: 20px;
 }
 
 /* Cursor para el efecto typewriter */
 .cursor {
   position: relative;
-  width: 370px;
+  width: 340px;
   margin: 0 auto;
-  font-size: 30px;
+  font-size: 28px;
   text-align: center;
   min-height: 120px; /* Para mantener el espacio mientras se escribe */
 }
@@ -71,18 +71,18 @@
 
 .nombre img {
     width: 250px;
-    margin-top: -20px;
+    margin-top: -50px;
     margin-left: 25px;
 }
 
 .nombre .nombre-tit {
     position: absolute;
-    top: 0;
+    top: -10px;
 }
 
 .nombre-tit h1 {
     font-family: "Lavishly Yours", cursive;
-    font-size: 55px;
+    font-size: 50px;
     font-weight: 600;
     color: #0F141A;
 }

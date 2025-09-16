@@ -18,20 +18,20 @@
 }
 
 .img_text img {
-    width: 340px;
+    width: 300px;
     margin-left: 30px;
 }
 
 .text_img {
     position: absolute;
-    top: 65px;
+    top: 60px;
     width: 100%;
     text-align: center;
 }
 
 .text_img h2 {
     font-family: "Kaushan Script", cursive;
-    font-size: 40px;
+    font-size: 30px;
     color: #fff;
     margin-top: 20px;
     animation: pinkGlow 2s infinite alternate;
