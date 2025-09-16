@@ -22,11 +22,11 @@ export default function ContenidoMusica() {
         <h2>Entre pinceladas y notas, la celebración comienza.</h2>
       </div>
       <div className="container_reproductor">
-        <Button
+        {/* <Button
           icon={isPlaying ? "pi pi-pause" : "pi pi-play"}
           className="play-button"
           onClick={togglePlayPause}
-        />
+        /> */}
         {!hasInteracted && (
           <p
             className="interaction-hint"

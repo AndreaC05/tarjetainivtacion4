@@ -10,7 +10,7 @@ export default function ContenidoFechaHora() {
   useEffect(() => {
     const timer = setTimeout(() => {
       navigate("/botones"); // 👈 aquí pones la ruta a la que quieres ir
-    }, 7000); // 5 segundos
+    }, 15000); // 5 segundos
 
     return () => clearTimeout(timer); // limpiar el timer al desmontar
   }, [navigate]);
