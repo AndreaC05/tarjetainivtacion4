@@ -18,7 +18,7 @@ export default function ContenidoFechaHora() {
           </div>
           <Calendario />
         </div>
-        <div className="Hora">
+        <div className="Hora mb-5">
           <div className="img_text">
             <img
               src="https://res.cloudinary.com/dnao6nouz/image/upload/v1758035584/image_26_sfhlhg.svg"

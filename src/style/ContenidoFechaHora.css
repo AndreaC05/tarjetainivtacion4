@@ -3,6 +3,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-bottom: 50px;
 }
 
 .calendario, .Hora {
@@ -31,7 +32,22 @@
 .text_img h2 {
     font-family: "Kaushan Script", cursive;
     font-size: 40px;
-    color: #252B3D;
-    margin-top: 20px
-;
+    color: #fff;
+    margin-top: 20px;
+    animation: pinkGlow 2s infinite alternate;
+}
+
+@keyframes pinkGlow {
+  0% {
+    text-shadow: 0 0 5px rgba(214, 106, 175, 0.6),
+      /* rosa base */ 0 0 10px rgba(255, 105, 180, 0.5),
+      /* hot pink */ 0 0 20px rgba(255, 20, 147, 0.4),
+      /* deep pink */ 0 0 30px rgba(255, 182, 193, 0.3); /* light pink */
+  }
+  100% {
+    text-shadow: 0 0 10px rgba(255, 20, 147, 0.9),
+      /* deep pink brillante */ 0 0 20px rgba(255, 105, 180, 0.8),
+      /* hot pink fuerte */ 0 0 40px rgba(214, 106, 175, 0.7),
+      /* rosa base */ 0 0 80px rgba(255, 182, 193, 0.6); /* glow rosado suave */
+  }
 }

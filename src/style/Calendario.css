@@ -4,13 +4,14 @@
     /* padding: 20px; */
     border-radius: 12px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin-top: -70px;
 }
 
 .container_calendario h1 {
   text-align: center;
   margin-bottom: 20px;
   font-family: "Kaushan Script", cursive;
-  font-size: 50px;
+  font-size: 30px;
   color: white;
 }
 
